@@ -21,8 +21,6 @@ import logging
 import os
 import stat
 import time
-#from typing import Callable, Iterator, Union, Optional, List
-#from typing import Iterator, Set
 from typing import Any, Iterator, Tuple
 
 import tarfile

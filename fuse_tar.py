@@ -202,7 +202,7 @@ class TarFS(llfuse.Operations):# type: ignore
       idx += 1
   # }}}
 
-  def open(self, inode: int, flags: int, ctx: llfuse.RequestContext) -> int:# {{{ pylint: disable=unused-argument
+  def open(self, inode: int, flags: int, ctx: llfuse.RequestContext) -> int:# {{{ pylint: disable=unused-argument,no-self-use
     """
     open file
     """
